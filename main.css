@@ -1,0 +1,157 @@
+html {
+  margin: auto;
+
+}
+
+
+.sun{
+  padding: 70px;
+  background-color: yellow;
+  border-radius: 200px;
+  position: absolute;
+  top: 230px;
+  left: 280px;
+}
+
+.ns_ray, .ew_ray, .nesw_ray, .nwse_ray, .n_star, .s_star, .e_star{
+  position: absolute;
+  padding: 230px 10px 10px 0px;
+
+}
+
+.ns_ray {
+
+  background-color: yellow;
+  bottom: -50px;
+  left: 66px;
+}
+
+.ew_ray{
+  background-color: yellow;
+  padding: 10px 230px 0px 10px;
+  left: -50px;
+  top: 66px;
+}
+
+.nesw_ray{
+  transform: rotate(-45deg);
+  background-color: yellow;
+  padding: 10px 230px 0px 10px;
+  left: -50px;
+}
+
+.nwse_ray{
+  transform: rotate(45deg);
+  background-color: yellow;
+  padding: 10px 230px 0px 10px;
+  left: -50px;
+}
+
+.n_star, .s_star, .e_star{
+  color: yellow;
+  font-size: 100px;
+}
+
+.n_star{
+  top: -190px;
+  right: 1000px;
+}
+
+.s_star{
+  top: 240px;
+  right: 1000px;
+}
+
+.e_star{
+  top: 28px;
+  right: 658px;
+}
+
+.tri{
+  position: static;
+  width: 0px;
+  height: 0px;
+  border-top: 300px solid transparent;
+  border-bottom: 300px solid transparent;
+  border-left: 480px solid white;
+  margin: 10px 0px 0px 200px;
+}
+
+.blue {
+  position: absolute;
+  padding: 200px 500px 100px 500px;
+  background-color: blue;
+  top: 10px;
+  right: 100px;
+  z-index: -1;
+}
+
+.red {
+  position: absolute;
+  padding: 200px 500px 100px 500px;
+  background-color: red;
+  bottom: 44px;
+  right: 100px;
+  z-index: -1;
+}
+
+.line1{
+  height: 598px;
+  position: absolute;
+  border: solid 3px black;
+  left: 200px;
+  top: 10px;
+}
+
+.line2{
+  height: 515px;
+  position: absolute;
+  border: solid 3px black;
+  left: 937px;
+  top: 50px;
+  transform: rotate(90deg);
+}
+
+.line3{
+  height: 598px;
+  position: absolute;
+  border: solid 3px black;
+  left: 1200px;
+  top: 9px;
+}
+
+.line4{
+  height: 1000px;
+  position: absolute;
+  border: solid 3px black;
+  left: 700px;
+  top: 110px;
+  transform: rotate(90deg);
+}
+
+.line5{
+  height: 1000px;
+  position: absolute;
+  border: solid 3px black;
+  left: 700px;
+  bottom: 140px;
+  transform: rotate(90deg);
+}
+
+.line6 {
+  background-color: black;
+  padding: 3px 0px 3px 565px;
+  transform: rotate(32deg);
+  position: absolute;
+  top: 159px;
+  left: 160px;
+}
+
+.line7 {
+  background-color: black;
+  padding: 3px 0px 3px 565px;
+  transform: rotate(-32deg);
+  position: absolute;
+  top: 459px;
+  left: 160px;
+}
